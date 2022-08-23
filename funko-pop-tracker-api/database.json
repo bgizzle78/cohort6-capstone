@@ -1,0 +1,21 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "fullName": "Brandon",
+            "email": "brandon@gmail.com"
+        }
+    ],
+    
+    "pops": [
+        {
+            "id": 1,
+            "name": "",
+            "type": "",
+            "releaseDate": "",
+            "purchasedDate": "",
+            "imageURL": "",
+            "userId": 1
+        }
+    ]
+}
