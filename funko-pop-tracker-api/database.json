@@ -1,21 +1,25 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "fullName": "Brandon",
-            "email": "brandon@gmail.com"
-        }
-    ],
-    
-    "pops": [
-        {
-            "id": 1,
-            "name": "",
-            "type": "",
-            "releaseDate": "",
-            "purchasedDate": "",
-            "imageURL": "",
-            "userId": 1
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Brandon",
+      "email": "brandon@gmail.com"
+    },
+    {
+      "email": "chelly@gmail.com",
+      "fullName": "Chelly",
+      "id": 2
+    }
+  ],
+  "pops": [
+    {
+      "id": 1,
+      "name": "",
+      "type": "",
+      "releaseDate": "",
+      "purchasedDate": "",
+      "imageURL": "",
+      "userId": 1
+    }
+  ]
 }
