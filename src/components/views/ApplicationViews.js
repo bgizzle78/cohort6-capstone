@@ -1,4 +1,5 @@
 import { Outlet, Route, Routes } from "react-router-dom"
+import { PopList } from "../pops/PopList.js"
 import "./AppViews.css"
 
 
@@ -12,6 +13,7 @@ export const ApplicationViews = () => {
                 <section className="mainContainer">
                     <div className="collection_view">
                         <h2>Showcase</h2>
+                        <PopList />
                     </div>
                 </section>
 
@@ -19,7 +21,7 @@ export const ApplicationViews = () => {
                 <Outlet />
             </>
         } />
-
+       <Route path="/pops" element={<PopList />} /> 
 
     </Routes>
 }

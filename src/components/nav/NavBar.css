@@ -2,3 +2,8 @@
     float: right;
     padding-right: 20px;
 }
+
+.navbar__profile {
+    float: left;
+    padding-left: 20px;
+}
