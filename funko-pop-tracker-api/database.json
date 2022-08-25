@@ -6,19 +6,30 @@
       "email": "brandon@gmail.com"
     },
     {
-      "email": "chelly@gmail.com",
-      "fullName": "Chelly",
+      "email": "catty@gmail.com",
+      "fullName": "Catalina",
       "id": 2
     }
   ],
   "pops": [
     {
       "id": 1,
-      "name": "",
-      "type": "",
-      "releaseDate": "",
-      "purchasedDate": "",
-      "imageURL": "",
+      "name": "Jin Sakai",
+      "genre": "Games",
+      "boxNumber": 621,
+      "rarity": "Common",
+      "releaseDate": "07-01-2020",
+      "imageURL": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6423/6423436_sd.jpg",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "name": "Kratos with The Blades of Chaos",
+      "genre": "Games",
+      "boxNumber": 154,
+      "rarity": "GameStop Exclusive",
+      "releaseDate": "07-30-2020",
+      "imageURL": "https://images.hobbydb.com/processed_uploads/catalog_item_photo/catalog_item_photo/image/848518/Kratos_with_the_Blades_of_Chaos_Vinyl_Art_Toys_64cf9283-4377-4f05-925c-c7063054fcd7.jpg",
       "userId": 1
     }
   ]

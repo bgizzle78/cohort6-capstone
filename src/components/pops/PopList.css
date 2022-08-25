@@ -1,0 +1,13 @@
+.popcard {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    border: 2.5px solid gray;
+    padding: 0.7rem;
+    margin: 0.5rem 0;
+}
+
+.img {
+    width: 180px;
+    height: 200px;
+}
