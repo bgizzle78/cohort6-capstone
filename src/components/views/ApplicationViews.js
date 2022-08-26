@@ -1,5 +1,7 @@
 import { Outlet, Route, Routes } from "react-router-dom"
+import { PopContainer } from "../pops/PopContainer.js"
 import { PopList } from "../pops/PopList.js"
+import { PopSearch } from "../pops/PopSearch.js"
 import "./AppViews.css"
 
 
@@ -9,19 +11,18 @@ export const ApplicationViews = () => {
     return <Routes>
         <Route path="/" element={
             <>
-                <h1 className="mainTitle">Your Funko Collection</h1>
+                <h1 className="mainTitle">Funko Pop Collection</h1>
                 <section className="mainContainer">
                     <div className="collection_view">
                         <h2>Showcase</h2>
-                        <PopList />
+
+                        <PopContainer />
                     </div>
                 </section>
-
 
                 <Outlet />
             </>
         } />
-       <Route path="/pops" element={<PopList />} /> 
 
     </Routes>
 }
