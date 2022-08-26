@@ -44,7 +44,8 @@
       "boxNumber": 233,
       "rarity": "Walgreens Exclusive",
       "releaseDate": "10-1-2017",
-      "imageURL": "https://cdn.shopify.com/s/files/1/0216/1862/2528/products/image_5f254c37-62a5-43d5-8e1d-31246bb3370a_600x.jpg?v=1648566275"
+      "imageURL": "https://cdn.shopify.com/s/files/1/0216/1862/2528/products/image_5f254c37-62a5-43d5-8e1d-31246bb3370a_600x.jpg?v=1648566275",
+      "userId": 1
     },
     {
       "id": 4,
@@ -53,7 +54,8 @@
       "boxNumber": 725,
       "rarity": "Funko Shop Exclusive",
       "releaseDate": "09-02-2020",
-      "imageURL": "https://i5.walmartimages.com/asr/2508a708-b88d-4ce4-b996-93841eb61217.cf94a998125640113c2a93340f7ff5b3.png?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+      "imageURL": "https://i5.walmartimages.com/asr/2508a708-b88d-4ce4-b996-93841eb61217.cf94a998125640113c2a93340f7ff5b3.png?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "userId": 1
     },
     {
       "id": 5,
@@ -62,7 +64,8 @@
       "boxNumber": 418,
       "rarity": "GameStop Exclusive",
       "releaseDate": "07-29-2018",
-      "imageURL": "https://thumbs.coleka.com/media/item/202003/06/pop-animation-rick-and-morty-roy-418.webp"
+      "imageURL": "https://thumbs.coleka.com/media/item/202003/06/pop-animation-rick-and-morty-roy-418.webp",
+      "userId": 1
     },
     {
       "id": 6,
@@ -71,7 +74,8 @@
       "boxNumber": 488,
       "rarity": "Common",
       "releaseDate": "08-23-2017",
-      "imageURL": "https://bbts1.azureedge.net/images/p/full/2017/07/d4c73802-b047-4e00-ba81-f753f5d2922d.jpg"
+      "imageURL": "https://bbts1.azureedge.net/images/p/full/2017/07/d4c73802-b047-4e00-ba81-f753f5d2922d.jpg",
+      "userId": 1
     },
     {
       "id": 7,
@@ -80,7 +84,8 @@
       "boxNumber": 489,
       "rarity": "Common",
       "releaseDate": "08-23-2017",
-      "imageURL": "https://i5.walmartimages.com/asr/6f616a08-cb11-44c2-8098-38cf6f767918_1.dd9f8690062caee6d324e00ce9e2b7e7.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+      "imageURL": "https://m.media-amazon.com/images/I/71JHE-qishL._AC_SX679_.jpg",
+      "userId": 1
     },
     {
       "id": 8,
@@ -89,7 +94,8 @@
       "boxNumber": 382,
       "rarity": "Common",
       "releaseDate": "10-26-2016",
-      "imageURL": "https://pop-figures.com/media/img/figurine/382-funko-pop-figure-bill-ted-bill-s-preston-box.jpg"
+      "imageURL": "https://pop-figures.com/media/img/figurine/382-funko-pop-figure-bill-ted-bill-s-preston-box.jpg",
+      "userId": 1
     },
     {
       "id": 9,
@@ -98,7 +104,48 @@
       "boxNumber": 383,
       "rarity": "Common",
       "releaseDate": "10-26-2016",
-      "imageURL": "https://pop-figures.com/media/img/figurine/383-funko-pop-figure-bill-ted-theodore-ted-logan-box.jpg"
+      "imageURL": "https://pop-figures.com/media/img/figurine/383-funko-pop-figure-bill-ted-theodore-ted-logan-box.jpg",
+      "userId": 1
+    },
+    {
+      "userId": 1,
+      "name": "Adam Bomb",
+      "genre": "GPK",
+      "boxNumber": "01",
+      "rarity": "Chase Variant",
+      "releaseDate": "03-22-2018",
+      "imageURL": "https://cdn.shopify.com/s/files/1/1113/5514/products/14124_adambombglowinthedark_1543952201_2048x2048.jpg?v=1589150979",
+      "id": 10
+    },
+    {
+      "userId": 1,
+      "name": "Ted Lasso",
+      "genre": "Television",
+      "boxNumber": "1258",
+      "rarity": "SDCC Shared Exclusive",
+      "releaseDate": "05-02-2022",
+      "imageURL": "https://images.stockx.com/images/Funko-Pop-Television-Ted-Lasso-Ted-Lasso-2022-Summer-Convention-Exclusive-Figure-1258.jpg?fit=fill&bg=FFFFFF&w=480&h=320&fm=avif&auto=compress&dpr=1&trim=color&updated_at=1658486965&q=80",
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "name": "Westley",
+      "genre": "Movies",
+      "boxNumber": "579",
+      "rarity": "Chase",
+      "releaseDate": "04-15-2018",
+      "imageURL": "https://bbts1.azureedge.net/images/p/full/2018/02/f8790170-55db-43c9-b3aa-def39ec7c765.jpg",
+      "id": 12
+    },
+    {
+      "userId": 1,
+      "name": "Tygra",
+      "genre": "Television",
+      "boxNumber": "573",
+      "rarity": "Specialty Series",
+      "releaseDate": "10-25-2017",
+      "imageURL": "https://cdn.shopify.com/s/files/1/0269/1307/9380/products/funko-pop-thundercats-tygra-speciality-series-573-television-funko-862004_1024x1024.jpg?v=1592759795",
+      "id": 13
     }
   ]
 }
