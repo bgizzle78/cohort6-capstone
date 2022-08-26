@@ -9,6 +9,11 @@
       "email": "catty@gmail.com",
       "fullName": "Catalina",
       "id": 2
+    },
+    {
+      "email": "leo@gmail.com",
+      "fullName": "Leo",
+      "id": 3
     }
   ],
   "pops": [
@@ -31,6 +36,69 @@
       "releaseDate": "07-30-2020",
       "imageURL": "https://images.hobbydb.com/processed_uploads/catalog_item_photo/catalog_item_photo/image/848518/Kratos_with_the_Blades_of_Chaos_Vinyl_Art_Toys_64cf9283-4377-4f05-925c-c7063054fcd7.jpg",
       "userId": 1
+    },
+    {
+      "id": 3,
+      "name": "Superior Spider-Man",
+      "genre": "Marvel",
+      "boxNumber": 233,
+      "rarity": "Walgreens Exclusive",
+      "releaseDate": "10-1-2017",
+      "imageURL": "https://cdn.shopify.com/s/files/1/0216/1862/2528/products/image_5f254c37-62a5-43d5-8e1d-31246bb3370a_600x.jpg?v=1648566275"
+    },
+    {
+      "id": 4,
+      "name": "Spider-Man (Symbiote Suit)",
+      "genre": "Marvel",
+      "boxNumber": 725,
+      "rarity": "Funko Shop Exclusive",
+      "releaseDate": "09-02-2020",
+      "imageURL": "https://i5.walmartimages.com/asr/2508a708-b88d-4ce4-b996-93841eb61217.cf94a998125640113c2a93340f7ff5b3.png?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+    },
+    {
+      "id": 5,
+      "name": "Roy",
+      "genre": "Animation",
+      "boxNumber": 418,
+      "rarity": "GameStop Exclusive",
+      "releaseDate": "07-29-2018",
+      "imageURL": "https://thumbs.coleka.com/media/item/202003/06/pop-animation-rick-and-morty-roy-418.webp"
+    },
+    {
+      "id": 6,
+      "name": "Crow",
+      "genre": "Television",
+      "boxNumber": 488,
+      "rarity": "Common",
+      "releaseDate": "08-23-2017",
+      "imageURL": "https://bbts1.azureedge.net/images/p/full/2017/07/d4c73802-b047-4e00-ba81-f753f5d2922d.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Tom Servo",
+      "genre": "Television",
+      "boxNumber": 489,
+      "rarity": "Common",
+      "releaseDate": "08-23-2017",
+      "imageURL": "https://i5.walmartimages.com/asr/6f616a08-cb11-44c2-8098-38cf6f767918_1.dd9f8690062caee6d324e00ce9e2b7e7.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+    },
+    {
+      "id": 8,
+      "name": "Bill",
+      "genre": "Movies",
+      "boxNumber": 382,
+      "rarity": "Common",
+      "releaseDate": "10-26-2016",
+      "imageURL": "https://pop-figures.com/media/img/figurine/382-funko-pop-figure-bill-ted-bill-s-preston-box.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Ted",
+      "genre": "Movies",
+      "boxNumber": 383,
+      "rarity": "Common",
+      "releaseDate": "10-26-2016",
+      "imageURL": "https://pop-figures.com/media/img/figurine/383-funko-pop-figure-bill-ted-theodore-ted-logan-box.jpg"
     }
   ]
 }

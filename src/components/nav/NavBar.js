@@ -6,10 +6,6 @@ export const NavBar = () => {
 
     return (
         <ul className="navbar">
-            <li className="navbar__item navbar__profile">
-                <Link className="navbar__link" to="/pops"
-                >PopList</Link>
-            </li>
             <li className="navbar__item navbar__logout">
                 <Link className="navbar__link" to="" onClick={() => {
                     //sessionStorage.removeItem("activeUser")
