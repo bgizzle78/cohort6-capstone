@@ -6,12 +6,12 @@ import "./PopForm.css"
 export const PopForm = () => {
 
     // Add the correct default properties to the
-    //     initial state object
+    // initial state object
 
     const [pop, update] = useState({
         name: "",
         genre: "",
-        boxNumber: "",
+        boxNumber: 0,
         rarity: "",
         releaseDate: "",
         imageURL: "",
@@ -19,7 +19,7 @@ export const PopForm = () => {
     })
 
     // Use the useNavigation() hook so you can redirect
-    //     the user to the pop list
+    // the user to the pop list
 
     const navigate = useNavigate()
     const localFunkoUser = localStorage.getItem("funko_user")
@@ -29,6 +29,7 @@ export const PopForm = () => {
         event.preventDefault()
 
         // Create the object to be saved to the API
+
         const popToSendToAPI = {
             userId: funkoUserObject.id,
             name: pop.name,
@@ -40,6 +41,7 @@ export const PopForm = () => {
         }
 
         // Perform the fetch() to POST the object to the API
+
         return fetch(`http://localhost:8088/pops`, {
             method: "POST",
             headers: {
@@ -53,7 +55,6 @@ export const PopForm = () => {
             })
     }
     return (
-
         <form className="popForm">
             <li className="navbar__item navbar__home">
                 <Link className="navbar__link" to="/"
@@ -170,7 +171,7 @@ export const PopForm = () => {
             </fieldset>
             <button
                 onClick={(clickEvent) => saveButtonClick(clickEvent)}
-                className="btn btn-primary">
+                className="pop__add">
                 Add Pop
             </button>
         </form>
