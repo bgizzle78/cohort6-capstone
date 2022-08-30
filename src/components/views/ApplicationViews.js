@@ -1,6 +1,6 @@
 import { Outlet, Route, Routes } from "react-router-dom"
 import { PopContainer } from "../pops/PopContainer.js"
-// import { PopEdit } from "../pops/PopEdit.js"
+import { PopEdit } from "../pops/PopEdit.js"
 import { PopForm } from "../pops/PopForm.js"
 import "./AppViews.css"
 
@@ -22,7 +22,7 @@ export const ApplicationViews = () => {
                 <Outlet />
             </>
         } />
-        {/* <Route path="pops/create" element={<PopEdit />} /> */}
+        <Route path="/pops/edit/:popId" element={<PopEdit />} />
         <Route path="/pops" element={<PopForm />} />
 
     </Routes>
