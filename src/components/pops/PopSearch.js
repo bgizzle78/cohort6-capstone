@@ -7,7 +7,7 @@ export const PopSearch = ({ setterFunction }) => {
                         setterFunction(changeEvent.target.value)
                     }
                 }
-                type="text" placeholder="Enter search terms" />
+                type="text" placeholder="Search Collection By Name" />
         </div>
     )
 }

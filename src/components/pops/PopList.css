@@ -1,13 +1,37 @@
-.popcard {
-    display: flex;
-    flex-direction: column;
+.pop-container {
     background-color: lightgray;
     border: 2.5px solid black;
-    padding: 0.7rem;
-    margin: 0.5rem 0;
+    padding: 0.5rem;
+    margin: 0.2rem 0.2rem;
+    color: royalblue;
+    box-sizing: border-box;
+    text-shadow: 1px 1px black;
+}
+
+.pops {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    flex-flow: column wrap;
+    background-color: darkgray;
+    border: 2.5px solid black;
+    padding: 0.5rem;
+    box-sizing: border-box;
 }
 
 .img {
-    /* width: 200px; */
     height: 200px;
+}
+
+.btn {
+    background-color: lightblue;
+    font-family: "Audiowide", sans-serif;
+    border-radius: 10px;
+    box-shadow: 2px 2px;
+}
+
+.btn-delete {
+    background-color: lightcoral;
+    font-family: "Audiowide", sans-serif;
+    border-radius: 10px;
+    box-shadow: 2px 2px;
 }

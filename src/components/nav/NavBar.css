@@ -1,9 +1,8 @@
 .navbar__logout {
     float: right;
+    margin-top: auto;
+    padding-top: 10px;
     padding-right: 20px;
-}
-
-.navbar__pops {
-    float: left;
-    padding-left: 20px;
+    font-family: "Audiowide", sans-serif;
+    list-style-type: none;
 }

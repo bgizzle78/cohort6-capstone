@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import "./PopList.css"
 
 export const Pops = ({ getPops, popObject }) => {
 
@@ -11,7 +12,7 @@ export const Pops = ({ getPops, popObject }) => {
                 .then(() => {
                     getPops()
                 })
-        }} className="pop__delete">Delete Pop</button>
+        }} className="btn-delete">Delete Pop</button>
 
     }
 
@@ -19,15 +20,15 @@ export const Pops = ({ getPops, popObject }) => {
         return <button onClick={() => {
             navigate(`pops/edit/${popObject.id}`)
 
-        }} className="pop__edit">Edit Pop</button>
+        }} className="btn">Edit Pop</button>
     }
 
     return <>
-        <section className="pops">
+        <section className="pop-container">
             <div className="popcard">
                 <header>{popObject.name}<br></br>
                     Genre: {popObject.genre}<br></br>
-                    Number: {popObject.boxNumber}<br></br>
+                    Box Number: {popObject.boxNumber}<br></br>
                     Rarity: {popObject.rarity}<br></br>
                     Release Date: {popObject.releaseDate}<br></br>
                     <img className="img" src={popObject.imageURL} alt={popObject.name}></img>

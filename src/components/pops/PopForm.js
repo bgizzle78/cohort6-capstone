@@ -58,11 +58,11 @@ export const PopForm = () => {
         <form className="popForm">
             <li className="navbar__item navbar__home">
                 <Link className="navbar__link" to="/"
-                >Home Page</Link>
+                >My Collection</Link>
             </li>
-            <h2 className="popForm__title">Pop Details</h2>
+            <h2 className="form-group">Pop Details</h2>
             <fieldset>
-                <div className="">
+                <div className="form-group">
                     <label htmlFor="popName">Pop Name:</label>
                     <input
                         required autoFocus
@@ -122,7 +122,7 @@ export const PopForm = () => {
                         required autoFocus
                         type="text"
                         className="form-control"
-                        placeholder="Rarity"
+                        placeholder="Pop Rarity"
                         value={pop.rarity}
                         onChange={
                             (evt) => {
@@ -140,7 +140,7 @@ export const PopForm = () => {
                         required autoFocus
                         type="text"
                         className="form-control"
-                        placeholder="Release Date"
+                        placeholder="mm-dd-yyyy"
                         value={pop.releaseDate}
                         onChange={
                             (evt) => {
@@ -171,8 +171,8 @@ export const PopForm = () => {
             </fieldset>
             <button
                 onClick={(clickEvent) => saveButtonClick(clickEvent)}
-                className="pop__add">
-                Add Pop
+                className="btn">
+                Save Pop
             </button>
         </form>
     )
