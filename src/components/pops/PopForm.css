@@ -1,4 +1,20 @@
 .navbar__home {
     float: center;
     padding-left: 20px;
+    font-family: "Audiowide", sans-serif;
+    list-style-type: none;
+}
+
+.form-control {
+    font-family: "Audiowide", sans-serif;
+    color: lightgray;
+    text-shadow: 1px 1px black;
+}
+
+.form-group {
+    font-family: "Audiowide", sans-serif;
+    color: royalblue;
+    text-shadow: 1px 1px black;
+    box-sizing: border-box;
+    width: 50%;
 }

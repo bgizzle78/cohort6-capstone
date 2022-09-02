@@ -14,73 +14,58 @@
       "email": "leo@gmail.com",
       "fullName": "Leo",
       "id": 3
+    },
+    {
+      "email": "chelly@gmail.com",
+      "fullName": "Chelly",
+      "id": 4
     }
   ],
   "pops": [
     {
-      "id": 2,
-      "name": "Kratos with The Blades of Chaos",
-      "genre": "Games",
-      "boxNumber": 154,
-      "rarity": "GameStop Exclusive",
-      "releaseDate": "07-30-2020",
-      "imageURL": "https://images.hobbydb.com/processed_uploads/catalog_item_photo/catalog_item_photo/image/848518/Kratos_with_the_Blades_of_Chaos_Vinyl_Art_Toys_64cf9283-4377-4f05-925c-c7063054fcd7.jpg",
-      "userId": 1
-    },
-    {
       "id": 3,
       "name": "Superior Spider-Man",
-      "genre": "Marvel",
+      "genre": "Marvel Comics",
       "boxNumber": 233,
       "rarity": "Walgreens Exclusive",
       "releaseDate": "10-1-2017",
-      "imageURL": "https://cdn.shopify.com/s/files/1/0216/1862/2528/products/image_5f254c37-62a5-43d5-8e1d-31246bb3370a_600x.jpg?v=1648566275",
+      "imageURL": "https://pop-figures.com/media/img/figurine/233-funko-pop-figure-marvel-comics-spider-man-superior-box.jpg",
       "userId": 1
     },
     {
       "id": 4,
       "name": "Spider-Man (Symbiote Suit)",
-      "genre": "Marvel",
+      "genre": "Marvel Comics",
       "boxNumber": 725,
       "rarity": "Funko Shop Exclusive",
       "releaseDate": "09-02-2020",
-      "imageURL": "https://i5.walmartimages.com/asr/2508a708-b88d-4ce4-b996-93841eb61217.cf94a998125640113c2a93340f7ff5b3.png?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
-      "userId": 1
-    },
-    {
-      "id": 5,
-      "name": "Roy",
-      "genre": "Animation",
-      "boxNumber": 418,
-      "rarity": "GameStop Exclusive",
-      "releaseDate": "07-29-2018",
-      "imageURL": "https://thumbs.coleka.com/media/item/202003/06/pop-animation-rick-and-morty-roy-418.webp",
+      "imageURL": "https://pop-figures.com/media/img/figurine/725-funko-pop-figure-marvel-comics-spider-man-symbiote-suit-box.jpg",
       "userId": 1
     },
     {
       "id": 6,
       "name": "Crow",
-      "genre": "Television",
+      "genre": "Television (MST3K)",
       "boxNumber": 488,
       "rarity": "Common",
       "releaseDate": "08-23-2017",
-      "imageURL": "https://bbts1.azureedge.net/images/p/full/2017/07/d4c73802-b047-4e00-ba81-f753f5d2922d.jpg",
+      "imageURL": "https://pop-figures.com/media/img/figurine/488-funko-pop-figure-mystery-science-theater-3000-crow-box.jpg",
       "userId": 1
     },
     {
       "id": 7,
       "name": "Tom Servo",
-      "genre": "Television",
+      "genre": "Television (MST3K)",
       "boxNumber": 489,
       "rarity": "Common",
       "releaseDate": "08-23-2017",
-      "imageURL": "https://m.media-amazon.com/images/I/71JHE-qishL._AC_SX679_.jpg",
+      "imageURL": "https://pop-figures.com/media/img/figurine/489-funko-pop-figure-mystery-science-theater-3000-tom-servo-box.jpg",
       "userId": 1
     },
     {
       "id": 8,
       "name": "Bill",
-      "genre": "Movies",
+      "genre": "Movies (Bill & Ted's Excellent Adventure)",
       "boxNumber": 382,
       "rarity": "Common",
       "releaseDate": "10-26-2016",
@@ -90,7 +75,7 @@
     {
       "id": 9,
       "name": "Ted",
-      "genre": "Movies",
+      "genre": "Movies (Bill & Ted's Excellent Adventure)",
       "boxNumber": 383,
       "rarity": "Common",
       "releaseDate": "10-26-2016",
@@ -112,30 +97,190 @@
       "name": "Ted Lasso",
       "genre": "Television",
       "boxNumber": 1258,
-      "rarity": "SDCC Shared Exclusive",
+      "rarity": "2022 SDCC Shared Exclusive",
       "releaseDate": "05-02-2022",
-      "imageURL": "https://images.stockx.com/images/Funko-Pop-Television-Ted-Lasso-Ted-Lasso-2022-Summer-Convention-Exclusive-Figure-1258.jpg?fit=fill&bg=FFFFFF&w=480&h=320&fm=avif&auto=compress&dpr=1&trim=color&updated_at=1658486965&q=80",
+      "imageURL": "https://cdn.shopify.com/s/files/1/0433/1952/5529/products/65335_TedLasso_Ted_POP_GLAM-1-SC-HiRes_1024x.jpg?v=1657893239",
       "id": 11
     },
     {
       "userId": 1,
       "name": "Westley",
-      "genre": "Movies",
+      "genre": "Movies (The Princess Bride)",
       "boxNumber": 579,
-      "rarity": "Chase",
+      "rarity": "Chase Variant",
       "releaseDate": "04-15-2018",
-      "imageURL": "https://bbts1.azureedge.net/images/p/full/2018/02/f8790170-55db-43c9-b3aa-def39ec7c765.jpg",
+      "imageURL": "https://pop-figures.com/media/img/figurine/579-funko-pop-figure-princess-bride-westley-chase-box.jpg",
       "id": 12
     },
     {
       "userId": 1,
       "name": "Tygra",
-      "genre": "Television",
+      "genre": "Television (Thundercats)",
       "boxNumber": 573,
       "rarity": "Specialty Series",
       "releaseDate": "10-25-2017",
-      "imageURL": "https://cdn.shopify.com/s/files/1/0269/1307/9380/products/funko-pop-thundercats-tygra-speciality-series-573-television-funko-862004_1024x1024.jpg?v=1592759795",
+      "imageURL": "https://pop-figures.com/media/img/figurine/573-funko-pop-figure-thundercats-tygra-box.jpg",
       "id": 13
+    },
+    {
+      "userId": 4,
+      "name": "Jim Halpert",
+      "genre": "Television (The Office)",
+      "boxNumber": "880",
+      "rarity": "Funko Shop Exclusive",
+      "releaseDate": "06-06-2019",
+      "imageURL": "https://pop-figures.com/media/img/figurine/880-funko-pop-figure-the-office-jim-halpert-3-hole-punch-box.jpg",
+      "id": 14
+    },
+    {
+      "userId": 4,
+      "name": "Destro",
+      "genre": "Animation (G.I. Joe)",
+      "boxNumber": "268",
+      "rarity": "2017 NYCC Shared Exclusive",
+      "releaseDate": "07-20-2017",
+      "imageURL": "https://pop-figures.com/media/img/figurine/268-funko-pop-figure-g-i-joe-destro-box.jpg",
+      "id": 15
+    },
+    {
+      "userId": 4,
+      "name": "Ram Man",
+      "genre": "Television (MOTU)",
+      "boxNumber": "658",
+      "rarity": "2018 SDCC Toy Tokyo Exclusive",
+      "releaseDate": "05-10-2018",
+      "imageURL": "https://pop-figures.com/media/img/figurine/658-funko-pop-figure-masters-of-the-universe-ram-man-box.jpg",
+      "id": 16
+    },
+    {
+      "userId": 1,
+      "name": "Brand",
+      "genre": "Movies (The Goonies)",
+      "boxNumber": "1070",
+      "rarity": "Target Exclusive",
+      "releaseDate": "03-03-2021",
+      "imageURL": "https://pop-figures.com/media/img/figurine/1070-funko-pop-figure-the-goonies-brand-box.jpg",
+      "id": 17
+    },
+    {
+      "userId": 1,
+      "name": "Marty Mcfly",
+      "genre": "Movies (Back To The Future)",
+      "boxNumber": "815",
+      "rarity": "2019 NYCC Shared Exclusive",
+      "releaseDate": "08-15-2019",
+      "imageURL": "https://pop-figures.com/media/img/figurine/815-funko-pop-figure-back-to-the-future-marty-mcfly-box.jpg",
+      "id": 18
+    },
+    {
+      "userId": 1,
+      "name": "Marty McFly",
+      "genre": "Movies (Back To The Future)",
+      "boxNumber": "602",
+      "rarity": "2018 Canadian Con Shared Exclusive",
+      "releaseDate": "06-28-2018",
+      "imageURL": "https://m.media-amazon.com/images/I/61OBMAMDguL._AC_SX425_.jpg",
+      "id": 19
+    },
+    {
+      "userId": 1,
+      "name": "Marty McFly",
+      "genre": "Movies (Back To The Future)",
+      "boxNumber": "49",
+      "rarity": "3000 Piece Plastic Empire Exclusive",
+      "releaseDate": "08-12-2020",
+      "imageURL": "https://images.hobbydb.com/processed_uploads/catalog_item_photo/catalog_item_photo/image/1090135/Marty_McFly_%2528Plutonium_Glow_in_the_Dark%2529_Vinyl_Art_Toys_981d6778-2344-4dcc-8a54-f7fa9aec8f24.jpeg",
+      "id": 20
+    },
+    {
+      "userId": 1,
+      "name": "Cartman with Clyde",
+      "genre": "South Park",
+      "boxNumber": "14",
+      "rarity": "GameStop Exclusive",
+      "releaseDate": "06-21-2017",
+      "imageURL": "https://www.bbtoystore.com/mm5/funko/FKO_14842.jpg",
+      "id": 21
+    },
+    {
+      "userId": 1,
+      "name": "Maude",
+      "genre": "Movies (The Big Lebowski)",
+      "boxNumber": "84",
+      "rarity": "Common",
+      "releaseDate": "11-23-2013",
+      "imageURL": "https://pop-figures.com/media/img/figurine/84-funko-pop-figure-the-big-lebowski-maude-box.jpg",
+      "id": 22
+    },
+    {
+      "userId": 1,
+      "name": "Donny",
+      "genre": "Movies (The Big Lebowski)",
+      "boxNumber": "83",
+      "rarity": "Common",
+      "releaseDate": "11-23-2013",
+      "imageURL": "https://pop-figures.com/media/img/figurine/83-funko-pop-figure-the-big-lebowski-donny-box.jpg",
+      "id": 23
+    },
+    {
+      "userId": 1,
+      "name": "Kratos with The Blades of Chaos",
+      "genre": "Games (God of War)",
+      "boxNumber": "154",
+      "rarity": "GameStop Exclusive",
+      "releaseDate": "07-30-2020",
+      "imageURL": "https://images.hobbydb.com/processed_uploads/catalog_item_photo/catalog_item_photo/image/848518/Kratos_with_the_Blades_of_Chaos_Vinyl_Art_Toys_64cf9283-4377-4f05-925c-c7063054fcd7.jpg",
+      "id": 24
+    },
+    {
+      "userId": 1,
+      "name": "Brian Fantana",
+      "genre": "Movies (Anchorman)",
+      "boxNumber": "949",
+      "rarity": "2020 SDCC Exclusive",
+      "releaseDate": "05-14-2020",
+      "imageURL": "https://pop-figures.com/media/img/figurine/949-funko-pop-figure-anchorman-the-legend-of-ron-burgundy-brian-fantana-scented-box.jpg",
+      "id": 25
+    },
+    {
+      "userId": 1,
+      "name": "Roy",
+      "genre": "Animation (Rick & Morty)",
+      "boxNumber": "418",
+      "rarity": "GameStop Exclusive",
+      "releaseDate": "07-20-2018",
+      "imageURL": "https://pop-figures.com/media/img/figurine/418-funko-pop-figure-rick-and-morty-roy-box.jpg",
+      "id": 26
+    },
+    {
+      "userId": 1,
+      "name": "Zoidberg",
+      "genre": "Animation (Futurama)",
+      "boxNumber": "55",
+      "rarity": "Common",
+      "releaseDate": "01-06-2016",
+      "imageURL": "https://pop-figures.com/media/img/figurine/55-funko-pop-figure-futurama-dr-zoidberg-box.jpg",
+      "id": 28
+    },
+    {
+      "userId": 1,
+      "name": "Tobias Funke",
+      "genre": "Television (Arrested Development)",
+      "boxNumber": "116",
+      "rarity": "Chase Variant",
+      "releaseDate": "05-16-2014",
+      "imageURL": "https://pop-figures.com/media/img/figurine/116-funko-pop-figure-arrested-development-tobias-funke-blue-box.jpg",
+      "id": 29
+    },
+    {
+      "userId": 1,
+      "name": "Tobias Funke",
+      "genre": "Television (Arrested Development)",
+      "boxNumber": "116",
+      "rarity": "Common",
+      "releaseDate": "05-16-2014",
+      "imageURL": "https://pop-figures.com/media/img/figurine/115-funko-pop-figure-arrested-development-tobias-funke-box.jpg",
+      "id": 30
     }
   ]
 }

@@ -41,11 +41,11 @@ export const PopEdit = () => {
         <form className="popForm">
             <li className="navbar__item navbar__home">
                 <Link className="navbar__link" to="/"
-                >Home Page</Link>
+                >My Collection</Link>
             </li>
-            <h2 className="popForm__title">Edit Details</h2>
+            <h2 className="form-group">Edit Details</h2>
             <fieldset>
-                <div className="">
+                <div className="form-control">
                     <label htmlFor="name">Pop Name:</label>
                     <input
                         required autoFocus
@@ -154,7 +154,7 @@ export const PopEdit = () => {
             </fieldset>
             <button
                 onClick={(clickEvent) => editButtonClick(clickEvent)}
-                className="pop__update">
+                className="btn">
                 Update Pop
             </button>
         </form>

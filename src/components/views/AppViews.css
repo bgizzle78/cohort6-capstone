@@ -1,14 +1,35 @@
-.collection_view {
-    border-color:#000000;
-    border-style:solid;
-    border-width:5px;
-    transform:translatex(0px) translatey(0px);
-    padding-left:92px;
-    padding-right:116px;
-    padding-top:2px;
+.collection-view {
+    display: flex;
+    flex-flow: column wrap;
+    border: 5px solid black;
+    transform: translatex(0px) translatey(0px);
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 1000px;
+    padding-top: 2px;
     background-color: gray;
+    font-family: "Audiowide", sans-serif;
+    text-align: center;
+    float: left;
+    width: 33.33%;
 }
 
 .mainTitle {
-    color: blue
+    text-align: center;
+    color: royalblue;
+    font-family: "Audiowide", sans-serif;
+    text-shadow: 2px 2px black;
+}
+
+.collection-title {
+    font-family: "Audiowide", sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px lightgray;
+}
+
+.navbar__pops {
+    float: left;
+    padding-left: 20px;
+    font-family: "Audiowide", sans-serif;
+    list-style-type: none;
 }
