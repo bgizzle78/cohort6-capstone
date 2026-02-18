@@ -1,9 +1,3 @@
-Perfect — I got you. I’ve carefully formatted this so it’s **GitHub-ready**. All headings, lists, badges, and code blocks have the **required blank lines**, so when you paste it into your `README.md`, it will render **exactly as intended**.
-
-Here’s the **ready-to-copy README**:
-
----
-
 # 🕹️ Cohort6 Capstone — Funko Pop Tracker
 
 ![React](https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react&logoColor=white)  
@@ -142,11 +136,3 @@ The backend will run on the configured port (default: 5000) and handle API reque
 
 **Brandon Gray**
 Full Stack Developer
-
----
-
-This version is **ready to copy and paste straight into your `README.md`** on GitHub.
-
-If you want, I can also make a **“playful Funko Pop style” version** with extra emojis sprinkled through the features and architecture so your portfolio really pops visually — like your KeyComicsDB README.
-
-Do you want me to do that next?
