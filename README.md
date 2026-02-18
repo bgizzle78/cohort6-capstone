@@ -1,70 +1,139 @@
-# Getting Started with Create React App
+🕹️ Cohort6 Capstone — Funko Pop Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+📌 Project Overview
 
-### `npm run build`
+Funko Pop Tracker 🎎 is a web application built to help collectors track, organize, and manage their Funko Pop collections.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project was developed as part of my Cohort6 capstone and demonstrates:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+A React frontend for dynamic, responsive UI
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+A Node.js API backend for handling data
 
-### `npm run eject`
+Full CRUD functionality for managing your collection
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Clean project structure suitable for scaling and further development
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🏗️ Architecture
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+React Frontend (src/)
+    ↓
+Node.js API (funko-pop-tracker-api/)
+    ↓
+Database (JSON / local storage or API data)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Frontend and backend communicate via RESTful API calls
 
-## Learn More
+Data is stored and manipulated through the backend
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🚀 Core Features
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🆕 Add new Funko Pop figures to your collection
 
-### Code Splitting
+🔍 View your collection at a glance
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+✏️ Edit figure details
 
-### Analyzing the Bundle Size
+🗑️ Remove items from the collection
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+💾 Persistent data storage (via API/local storage)
 
-### Making a Progressive Web App
+📂 Project Structure
+Frontend (src/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Components and pages for displaying Funko Pops 🎎
 
-### Advanced Configuration
+API service for communicating with backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+CSS/Styling for a clean, responsive UI
 
-### Deployment
+Backend (funko-pop-tracker-api/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Node.js server handling HTTP requests
 
-### `npm run build` fails to minify
+Endpoints for Create, Read, Update, Delete operations
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Handles data storage and retrieval
+
+🛠️ Tech Stack
+Frontend
+
+React (Create React App)
+
+JavaScript (ES6+)
+
+CSS
+
+Backend
+
+Node.js / Express
+
+REST API
+
+Tools
+
+Git / GitHub
+
+Visual Studio Code / IDE
+
+npm / Node.js
+
+⚙️ Getting Started
+1️⃣ Clone the Repository
+git clone https://github.com/bgizzle78/cohort6-capstone.git
+cd cohort6-capstone
+
+2️⃣ Install Frontend Dependencies
+cd src
+npm install
+npm start
+
+
+Open http://localhost:3000
+ to view the app.
+
+3️⃣ Run Backend (if applicable)
+cd funko-pop-tracker-api
+npm install
+npm start
+
+
+The backend will run on the configured port (default: 5000) and handle API requests.
+
+🎯 What This Project Demonstrates
+
+React component-based architecture
+
+Dynamic state management
+
+Full CRUD operations with a backend API
+
+RESTful API communication
+
+Separation of frontend and backend concerns
+
+Project organization and scalability
+
+🔮 Future Enhancements
+
+🔐 User authentication & login
+
+🖼️ Image upload support for Funko Pops
+
+📊 Analytics (most collected series, total collection value)
+
+☁️ Cloud deployment for persistence
+
+📱 Fully responsive, mobile-first design
+
+👨‍💻 Author
+
+Brandon Gray
+Full Stack Developer
