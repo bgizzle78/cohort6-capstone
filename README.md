@@ -135,4 +135,4 @@ The backend will run on the configured port (default: 5000) and handle API reque
 ## 👨‍💻 Author
 
 **Brandon Gray**
-Full Stack Developer
+Full Stack Developer/Data Analyst
