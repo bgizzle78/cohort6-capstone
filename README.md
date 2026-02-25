@@ -2,9 +2,9 @@
 
 ![React](https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react&logoColor=white)  
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript&logoColor=black)  
-![Node.js](https://img.shields.io/badge/Node.js-Backend-339933?style=for-the-badge&logo=node.js&logoColor=white)  
+![json-server](https://img.shields.io/badge/json--server-MockAPI-FF6E40?style=for-the-badge)  
+![npm](https://img.shields.io/badge/npm-Dependencies-CB3837?style=for-the-badge&logo=npm&logoColor=white)  
 ![GitHub](https://img.shields.io/badge/GitHub-%23181717?style=for-the-badge&logo=github&logoColor=white)
-
 
 ---
 
@@ -15,22 +15,23 @@
 This project was developed as part of my Cohort6 capstone and demonstrates:
 
 * A **React frontend** for dynamic, responsive UI
-* A **Node.js API backend** for handling data
+* A **mock backend API** using `json-server` for handling data
 * Full CRUD functionality for managing your collection
+* Login and registration flow using the mock API
 * Clean project structure suitable for scaling and further development
 
 ---
 
 ## 🏗️ Architecture
 
-React Frontend (`src/`)
-    ↓
-Node.js API (`funko-pop-tracker-api/`)
-    ↓
-Database (JSON / local storage or API data)
+React Frontend (`src/`)  
+    ↓  
+Mock API Backend (`funko-pop-tracker-api/`)  
+    ↓  
+Database (`database.json`)
 
 * Frontend and backend communicate via RESTful API calls
-* Data is stored and manipulated through the backend
+* Data is stored and manipulated through the backend (`json-server`)
 
 ---
 
@@ -40,7 +41,8 @@ Database (JSON / local storage or API data)
 * 🔍 View your collection at a glance
 * ✏️ Edit figure details
 * 🗑️ Remove items from the collection
-* 💾 Persistent data storage (via API/local storage)
+* 💾 Persistent data storage via `json-server` mock API
+* 🔐 Simple login & registration flow
 
 ---
 
@@ -54,9 +56,9 @@ Database (JSON / local storage or API data)
 
 ### Backend (`funko-pop-tracker-api/`)
 
-* Node.js server handling HTTP requests
-* Endpoints for Create, Read, Update, Delete operations
-* Handles data storage and retrieval
+* `json-server` serving `database.json`  
+* Endpoints for Create, Read, Update, Delete operations (`/users`, `/pops`)  
+* Handles mock data storage and retrieval  
 
 ---
 
@@ -64,51 +66,57 @@ Database (JSON / local storage or API data)
 
 ### Frontend
 
-* React (Create React App)
-* JavaScript (ES6+)
-* CSS
+* React (Create React App)  
+* JavaScript (ES6+)  
+* CSS  
 
 ### Backend
 
-* Node.js / Express
-* REST API
+* json-server (mock REST API)  
 
 ### Tools
 
-* Git / GitHub
-* Visual Studio Code / IDE
-* npm / Node.js
+* Git / GitHub  
+* Visual Studio Code / IDE  
+* npm / Node.js  
 
 ---
 
 ## ⚙️ Getting Started
 
-### 1️⃣ Clone the Repository
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/bgizzle78/cohort6-capstone.git
-cd cohort6-capstone
-```
+cd funko-pop-tracker
 
-### 2️⃣ Install Frontend Dependencies
+### 2️⃣ Install Frontend and Backend Dependencies
 
 ```bash
+# Frontend
 cd src
 npm install
-npm start
 ```
+```bash
+# Backend
+cd ../funko-pop-tracker-api
+npm install
 
-Open [http://localhost:3000](http://localhost:3000) to view the app.
-
-### 3️⃣ Run Backend (if applicable)
+### 3️⃣ Start Both Frontend and Backend
 
 ```bash
-cd funko-pop-tracker-api
-npm install
-npm start
+# Backend first (mock API)
+npx json-server -p 8088 -w database.json
 ```
+```bash
+# In a new terminal, start frontend
+cd ../src
+npm start
 
-The backend will run on the configured port (default: 5000) and handle API requests.
+### 4️⃣ 
+ http://localhost:3000
+ will open in your browser.
+Login/register and test all CRUD functionality.
 
 ---
 
@@ -135,4 +143,4 @@ The backend will run on the configured port (default: 5000) and handle API reque
 ## 👨‍💻 Author
 
 **Brandon Gray**
-Full Stack Developer/Data Analyst
+Full Stack Developer
