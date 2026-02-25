@@ -25,8 +25,8 @@
     {
       "id": 3,
       "name": "Superior Spider-Man",
-      "genre": "Marvel Comics",
-      "boxNumber": 233,
+      "genre": "Marvel",
+      "boxNumber": "235",
       "rarity": "Walgreens Exclusive",
       "releaseDate": "10-1-2017",
       "imageURL": "https://pop-figures.com/media/img/figurine/233-funko-pop-figure-marvel-comics-spider-man-superior-box.jpg",
@@ -35,7 +35,7 @@
     {
       "id": 4,
       "name": "Spider-Man (Symbiote Suit)",
-      "genre": "Marvel Comics",
+      "genre": "Marvel",
       "boxNumber": 725,
       "rarity": "Funko Shop Exclusive",
       "releaseDate": "09-02-2020",

@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom"
 import "./Login.css"
 
 export const Login = () => {
-    const [email, set] = useState("")
+    const [email, setEmail] = useState("")
     const navigate = useNavigate()
 
     const handleLogin = (e) => {
@@ -36,11 +36,14 @@ export const Login = () => {
                     <fieldset>
                         <label htmlFor="inputEmail"> Email address </label>
                         <input type="email"
+                            id="inputEmail"
+                            name="email"
                             value={email}
-                            onChange={evt => set(evt.target.value)}
+                            onChange={evt => setEmail(evt.target.value)}
                             className="form-control"
                             placeholder="Email address"
-                            required autoFocus />
+                            required
+                            autoFocus />
                     </fieldset>
                     <fieldset>
                         <button className="btn" type="submit">
